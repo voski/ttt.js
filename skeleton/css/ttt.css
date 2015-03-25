@@ -1,7 +1,30 @@
 .box {
-  width: 300px;
-  border: 5px solid black;
+  width: 312px;
+  border: 1px solid black;
   background-color: #ccc;
   margin: 0 auto;
 
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  float: left;
+  border: 2px solid black;
+}
+
+.square:hover {
+  background-color: #FDFD96;
+};
+
+.group:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.header {
+  text-align: center;
+  font-size: 2em;
 }
